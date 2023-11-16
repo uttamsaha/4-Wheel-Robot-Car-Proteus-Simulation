@@ -1,7 +1,8 @@
 ## Bluetooth Control Remote Car
-This is an obstacle avoidance remote control bluetooth car which is controlled via mobile application. There is a sonar sensor in front of the car to detect forward obstacle/object and an IR sensor behind the car to detect the backward object/obstacle. Sonar and IR sensors detect the distance of any object and helps to find any kind of obstacle. We did an initial simulation implementation first then we jump to the final implementation and hardware installation.
+This is an obstacle avoidance remote control bluetooth car made with Arduino UNO R3 which is controlled via mobile application.  Sonar sensor and IR sensor is used to detect forward and backward obstacle/object. We did an initial simulation implementation first then we jump to the final implementation and hardware installation.
 
-## View project on YouTube:
+## [View project on YouTube:](https://youtu.be/0HFX_0YsL38)
+https://youtu.be/0HFX_0YsL38
 
 ## Features & Functionalities
 * This car is controlled using mobile application.
@@ -9,7 +10,7 @@ This is an obstacle avoidance remote control bluetooth car which is controlled v
 * We can stop this car using break button form mobile app.
 * Can rotate 360 degree
 * Sonar sensor is used in front and IR sensor backward of the car to detect any kind of obstacle/object.
-* If the sensor detects any kind of obstacle/object infront or backward of the car the call will be stopped automatically.
+* If the sensors detect any kind of obstacle/object infront or backward of the car the car will be stopped automatically even we cannot run it forcefully at this time.
 
 
 ### Used Tools/Hardware
@@ -30,6 +31,7 @@ This is an obstacle avoidance remote control bluetooth car which is controlled v
 13. Car case
 ```
 ## Car Pictures
+![Figure](images/car.jpg)
 
  ## Simulation Figure 
- - ![Figure](https://raw.githubusercontent.com/uttamsaha/4-Wheel-Robot-Car-Proteus-Simulation/main/robotcar.png)
+ ![Figure](images/robotcar.png)
